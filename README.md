@@ -1,6 +1,6 @@
-# Terralense Example AWS Repository
+# terralens-example-aws Example AWS Repository
 
-This is a multi-project Terraform repository demonstrating complex cross-project dependencies in AWS infrastructure. It's designed to showcase the capabilities of [Terralense](https://github.com/yourusername/terralense), a Terraform productivity tool for analyzing dependencies within and across projects.
+This is a multi-project Terraform repository demonstrating complex cross-project dependencies in AWS infrastructure. It's designed to showcase the capabilities of [terralens-example-aws](https://github.com/yourusername/terralens-example-aws), a Terraform productivity tool for analyzing dependencies within and across projects.
 
 ## Repository Structure
 
@@ -58,12 +58,12 @@ Dependencies are managed using Terraform remote state with S3 backend.
    terraform apply
    ```
 
-## Using Terralense
+## Using terralens-example-aws
 
 Analyze dependencies across projects:
 ```bash
-terralense analyze --path . --output dependencies.json
-terralense visualize --input dependencies.json
+terralens-example-aws analyze --path . --output dependencies.json
+terralens-example-aws visualize --input dependencies.json
 ```
 
 ## Cost Considerations

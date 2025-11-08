@@ -14,7 +14,7 @@ provider "aws" {
 
   default_tags {
     tags = {
-      Project     = "terralense-example"
+      Project     = "terralens-example-aws-example"
       ManagedBy   = "terraform"
       Environment = var.environment
     }

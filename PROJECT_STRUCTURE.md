@@ -1,9 +1,9 @@
-# Terralense Example AWS - Project Structure
+# terralens-example-aws Example AWS - Project Structure
 
 ## Complete File Tree
 
 ```
-terralense-example-aws/
+terralens-example-aws-example-aws/
 ├── README.md                          # Main documentation
 ├── LICENSE                            # MIT License
 ├── .gitignore                         # Git ignore rules
@@ -205,7 +205,7 @@ All projects use:
   - `database/terraform.tfstate`
   - `monitoring/terraform.tfstate`
 
-## Key Features for Terralense
+## Key Features for terralens-example-aws
 
 1. **Multi-Project Architecture**: 4 distinct projects with clear boundaries
 2. **Remote State Dependencies**: All cross-project refs use `terraform_remote_state`
@@ -221,7 +221,7 @@ All projects use:
 1. Update S3 bucket name in all `backend.tf` files
 2. Review and customize variables as needed
 3. Deploy in order: networking → compute → database → monitoring
-4. Use Terralense to analyze the dependency graph
+4. Use terralens-example-aws to analyze the dependency graph
 5. Push to GitHub for showcase
 
 ## Deployment Order

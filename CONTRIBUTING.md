@@ -1,10 +1,10 @@
-# Contributing to Terralense Example AWS
+# Contributing to terralens-example-aws Example AWS
 
 Thank you for your interest in contributing! This document provides guidelines for contributing to this example repository.
 
 ## Purpose
 
-This repository serves as a realistic example of multi-project Terraform infrastructure to demonstrate the capabilities of Terralense. Contributions should maintain this purpose and add value for users learning about Terraform project organization and dependency management.
+This repository serves as a realistic example of multi-project Terraform infrastructure to demonstrate the capabilities of terralens-example-aws. Contributions should maintain this purpose and add value for users learning about Terraform project organization and dependency management.
 
 ## How to Contribute
 

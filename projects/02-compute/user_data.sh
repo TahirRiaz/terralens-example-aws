@@ -20,14 +20,14 @@ $availability_zone = file_get_contents("http://169.254.169.254/latest/meta-data/
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Terralense Example - ${environment}</title>
+    <title>terralens-example-aws Example - ${environment}</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; }
         .info { background: #f0f0f0; padding: 20px; border-radius: 5px; }
     </style>
 </head>
 <body>
-    <h1>Terralense Example Application</h1>
+    <h1>terralens-example-aws Example Application</h1>
     <div class="info">
         <h2>Instance Information</h2>
         <p><strong>Environment:</strong> ${environment}</p>
@@ -51,7 +51,7 @@ systemctl enable httpd
 cat > /opt/aws/amazon-cloudwatch-agent/etc/config.json <<'CWCONFIG'
 {
   "metrics": {
-    "namespace": "TerralenseExample/${environment}",
+    "namespace": "terralens-example-awsExample/${environment}",
     "metrics_collected": {
       "cpu": {
         "measurement": [

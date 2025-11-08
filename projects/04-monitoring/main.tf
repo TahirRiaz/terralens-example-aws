@@ -313,7 +313,7 @@ resource "aws_cloudwatch_log_metric_filter" "error_count" {
 
   metric_transformation {
     name      = "ErrorCount"
-    namespace = "TerralenseExample/${var.environment}"
+    namespace = "terralens-example-awsExample/${var.environment}"
     value     = "1"
   }
 }
@@ -323,7 +323,7 @@ resource "aws_cloudwatch_metric_alarm" "application_errors" {
   comparison_operator = "GreaterThanThreshold"
   evaluation_periods  = 1
   metric_name         = "ErrorCount"
-  namespace           = "TerralenseExample/${var.environment}"
+  namespace           = "terralens-example-awsExample/${var.environment}"
   period              = 300
   statistic           = "Sum"
   threshold           = 10

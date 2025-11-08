@@ -1,6 +1,6 @@
 # Deployment Guide
 
-This guide walks through deploying the Terralense example AWS infrastructure.
+This guide walks through deploying the terralens-example-aws example AWS infrastructure.
 
 ## Prerequisites
 
